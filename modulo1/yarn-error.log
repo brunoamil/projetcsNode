@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\3766\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\3766\AppData\Local\Microsoft\WindowsApps;;C:\Users\3766\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\3766\AppData\Roaming\npm
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\3766\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:129645:19)
+      at Object.onceWrapper (events.js:276:13)
+      at ClientRequest.emit (events.js:188:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:668:40)
+      at Object.onceWrapper (events.js:276:13)
+      at TLSSocket.emit (events.js:188:13)
+      at TLSSocket.Socket._onTimeout (net.js:446:8)
+      at listOnTimeout (timers.js:324:15)
+      at processTimers (timers.js:268:5)
+
+npm manifest: 
+  {
+    "name": "modulo1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
